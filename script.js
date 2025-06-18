@@ -38,7 +38,7 @@ function getRepos(username) {
         html += `
           <div class="grid grid-cols-3 gap-4 px-4 py-2 border-b border-gray-600 text-sm">
             <div>${repo.name}</div>
-            <div class="text-blue-400 underline">
+            <div class="text-blue-400 ">
               <a href="${repo.html_url}" target="_blank">${repo.name}</a>
             </div>
             <div>${repo.language || "—"}</div>
